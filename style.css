@@ -1,0 +1,256 @@
+*{
+    font-family: cursive;
+}
+.navbar{
+    background-color: #1b8989;
+    padding: 15px;
+    font-size: 17px;
+    position: sticky;
+    top: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar a{
+    margin-left: 10px;
+}
+body{
+    margin: 0;
+}
+.float-right{
+    float: right;
+}
+.btn{
+    padding: 3px 10px 5px 10px;border-radius: 5%;
+}
+    .btn-primary{
+        background-color: rgb(45, 97, 218);
+    }
+.btn-warning{
+    background-color: rgb(246, 246, 16);
+    color: black;
+}
+body{
+    margin: 0;
+}
+.mt-1px{
+    margin-top: 1px;
+}
+.row{
+    display:flex;
+    padding-left: 15px;padding-right: 15px;
+}
+.col-1{
+    width: 100%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.33%;
+}
+.col-4{
+    width: 25%;
+}
+.mt-10px{
+    margin-top: 10px;
+}
+.card{
+    border: 1px solid rgb(202, 198, 198);padding: 10px;margin-left: 10px;
+    text-align: center;
+}
+.text-center{
+    text-align: center ;
+}
+.img-responsive{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.card img{
+    height: 130px;width: 130px;margin: auto;
+}
+.card a{
+    color: cadetblue;
+}
+.card p{
+    color: rgb(107, 106, 200);text-align: justify;
+}
+
+.text-primary{
+    color: rgb(46, 46, 190);
+}
+.footer{
+    background-color: black;padding: 5px;
+}
+.text-white{
+    color: white;
+}
+.p-5{
+    padding: 30px;color: white;
+    background-color: rgb(28, 65, 60, 0.472);
+}
+.p-4{
+    padding: 25px;
+}
+.p-1{
+    padding: 10px;
+}
+.text-justify{
+    text-align: justify;
+}
+input , select{
+    width: 250px;
+    height: 25px;
+}
+.fborder{
+    background-color: aliceblue;
+}
+.m-3{
+    margin: 20px;
+}
+.al{
+    align-items: center;
+}
+
+/*.h:hover{
+    border: 1px solid blue;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+    
+}*/
+
+.Section_top{
+    width:100%;
+    height:350px;
+    overflow: hidden;
+    position: relative;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s step-end infinite;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+/* .content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}*/
+@keyframes change{
+    0%
+    {
+        background-image: url(./mental\ health\ banner\ 1.jpg);
+    }
+    33.33%{
+        background-image: url(./mental\ health\ banner\ 2.jpg);
+    }
+    66.66%
+    {
+        background-image: url(./mental\ health\ banner\ 3.jpg);
+    }
+    100%
+    {
+        background-image: url(./mental\ health\ banner\ 1.jpg);
+    }
+}
+.r{
+    width: 100%;
+    height: 380px;
+    
+}
+.r1{width: 100%;
+    height: 50px;
+    /* padding-bottom: 100px ; */
+}
+
+/* .hoval
+{
+    text-align: center;
+} */
+.float-center{
+    text-align: center;
+    position: relative;
+
+}
+.btn1:hover{
+    background-color: rgb(239, 132, 9);
+    color: mistyrose;
+}
+.text-al{
+    margin-left: 10.50%;
+    color: rgb(53, 49, 49);
+}
+.text-all{
+    margin-left: 6%;color: rgb(53, 49, 49);
+}
+
+.text-article{
+    margin-left: 14%;color: rgb(53, 49, 49);
+}
+
+.bttn:hover{
+    background-color: rgb(36, 226, 230);
+    color: black;
+
+}
+.rnew{
+    display:flex;
+    margin-bottom: 10px;
+    width: 100%; height: auto;background-color: aquamarine;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.rnew:hover{
+    /* background-image: url(mental\ health\ banner\ 2.jpg); */
+    /* color: aquamarine;
+     */
+     color: white;
+    /* background: rgb(0, 0, 0); */
+    background-image: url(WhatsApp\ Image\ 2023-10-08\ at\ 12.09.21\ AM.jpeg);
+}
+.active:hover{
+    /* background: #fcfdfb; */
+    border-radius: 3px; 
+    
+    background-color: rgba(255, 255, 255,0.9) ;color: black;
+}
+.btnc{
+    padding: 3px 10px 5px 10px;border-radius: 10px;
+}
+.f-r{
+    float: right;
+    position: sticky;
+    right: 10px;
+    bottom: 10px;
+}
+.btnc-primary{
+    background-color: orange;
+}
+.chat:hover{
+    background: rgb(255, 235, 83);border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+.rmainaid{
+    
+        display:flex;
+        margin-bottom: 10px;
+        width: 100%; height: auto;background-color: #eada812b;
+}
+.spec{
+    width: 65%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
